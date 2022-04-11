@@ -1,0 +1,351 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	overflow-x: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* !Header */
+
+header{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/Rectangle43.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.nav__content{
+	margin-top: 42px;
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav__content ul{
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__content ul li a:hover{
+	text-decoration: underline;
+}
+
+.contact {
+	width: 180px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.contact a:hover{
+	text-decoration: underline;
+}
+
+.number{
+	margin-top: 5px;
+}
+
+.cappadocia{
+	width: 100%;
+	margin: 15% 35%;
+}
+
+h1{
+	font-size: 7.5em;
+	font-family: 'Send Flowers', cursive;
+}
+
+.cappadocia p{
+	margin-top: -3%;
+	margin-left: 20%;
+	font-size: 2em;
+	font-weight: unset;
+	font-style: italic;
+	font-family: cursive
+}
+
+/* !Main */
+
+main{
+	margin-top: 55%;
+}
+.flowers{
+	padding: 5% 20% 3% 17%;
+}
+
+.flowers p{
+	font-style: italic;
+	font-family: cursive;
+	font-size: 20px;
+	padding-left: 20%;
+	margin-top: -3%;
+}
+
+.flower__name{
+	font-family: 'Send Flowers', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	color: #E2AB3F;
+}
+
+.content__box .photo{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.photo ul li p{
+	padding: 2% 22% 3% 13%; 
+}
+.thenullsee{
+font-weight: 600;
+}
+.photo img{
+	width: 150%;
+}
+
+/* Trip */
+
+.trip{
+	width: 100%;
+	margin-top: 10%;
+}
+.our__trip p{
+	width: 100%;
+	margin-left: 6.5em;
+	font-style: italic;
+	font-family: cursive;
+}
+.tripbox{
+	display: flex;
+	justify-content: space-between;
+}
+
+.tripbox img{
+	width: 700px;
+}
+
+.photo2 .our__trip{
+	width: 400px;
+	margin-left: 20%;
+}
+
+.trip__info{
+	font-family: 'Send Flowers', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	color: #E2AB3F;
+}
+.photo2 ul{
+	margin-top: 15%;
+}
+.photo2 ul li{
+	padding-bottom: 0.5%;
+}
+.trip p{
+	font-size: 18px;
+	padding-left: 30%;
+	margin-top: -2%;
+	font-weight: 300;
+}
+
+.day{
+	padding-bottom: 3%;
+	font-weight: bold;
+	padding: 0 30%;
+}
+.btn{
+	font-size: 15px;
+	margin: 3% 0 0 30%;
+	background-color: white;
+	padding: 2% 8%;
+	border: #E2AB3F 1px solid;
+}
+/* Hotel */
+.hotel{
+	width: 100%;
+	margin-top: 10%;
+}
+.hotelbox{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 7% 
+}
+.ourhotel p{
+	width: 100%;
+	margin-left: 17em;
+	margin-top: -2%;
+	margin-bottom: 5%;
+	font-style: italic;
+	font-family: cursive;
+	
+} 
+.first{
+	width: 70%;
+	height: 600px;
+}
+.photo3 p{
+ margin: 0% 0% 3% 13%; 
+ font-size: 14px;
+ width: 70%;
+ font-weight: 300;
+}
+.imageblock{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 1% 1% 12%;
+}
+.imageblock img{
+	padding: 1% 1%;
+	width: 270px;
+}
+
+.hotelinfo{
+	font-family: 'Send Flowers', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	color: #E2AB3F;
+	margin-left: 1.5em;
+}
+/* Price*/
+.price{
+	width: 100%;
+	margin-top: 10%;
+}
+.pricelist p{
+	margin-left: 15em;
+	margin-top: -2%;
+	margin-bottom: 5%;
+	font-style: italic;
+	font-family: cursive;
+}
+.priceinfo{
+	font-family: 'Send Flowers', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	color: #E2AB3F;
+	margin-left: 1.5em;
+}
+.pricebox{
+	display: flex;
+	padding: 0% 0% 3% 7%;
+	font-size: 14px;
+	width: 80%;
+}
+.on{
+	width: 40%;
+	padding-right: 3%;
+}
+.bolt{
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+.bolt2{
+	font-weight: bold;
+	margin-bottom: 2em;
+}
+.baloon2{
+	height: 60%;
+	padding: 10% 0 0 10%;
+	margin-top: -10%;
+}
+.baloon3{
+	padding: 10% 0% 0% 15%;
+	margin-top: -15%;
+}
+.baloon1{
+	padding: 10% 0 0 0;
+	margin-top: -25%;
+}
+.datebox{
+width: 100%;
+}
+.dateprice h3{
+	font-family: 'Send Flowers', cursive;
+	font-size: 90px;
+	font-weight: 100;
+	color: #E2AB3F;
+	margin-left: 1.5em;
+}
+.dateprice p{
+	margin-left: 18em;
+	margin-top: -2%;
+	margin-bottom: 5%;
+	font-style: italic;
+	font-family: cursive;
+}
+.zayavka{
+	font-size: 15px;
+	margin: 3% 0 0 0%;
+	background-color: white;
+	padding: 2% 8%;
+	width:25% ;
+}
+.zayavka input{
+	background-color: white;
+	border: #E2AB3F 1px solid;
+	padding: 5% 10% 5% 5%;
+	margin: 5% 0 0 0%;
+}
+.zayavka button{
+	background-color: white;
+	border: #E2AB3F 1px solid;
+	padding: 3% 3% 3% 3%;
+	margin: 5% 0 0 18%;
+}
+.photodate{
+	width: 60%;
+	height: 60%;
+	margin-left: 40%;
+	margin-top: -50%;
+}
+/*Footer*/
+footer{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-image: url(../img/Rectangle\ 42.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+.dreams2{
+	font-size: 80px;
+	margin: 15% 5% 0 45%;
+}
+.looon{
+	margin: -18% 0% 0 15%;
+	height: 100%;
+}
+.inbaloon{
+	margin: -40% 3% 0 5%;
+	padding: 0% 5% 40% 0%;
+	height: 100%;
+	font-size: 80px;
+	font-family: 'Send Flowers', cursive;
+	color: #E2AB3F;
+}
+.inf{
+	display: flex;
+	justify-content: space-between;
+	width: 18%;
+	padding: 0 5% 33% 0%;
+	margin: -33% 3% 0 20%;
+	flex-wrap: wrap;
+	font-size: 14px;
+}
+.number7{
+padding: 0 40% 7% 0;
+}
+.phone2{
+	padding: 0 0 7% 0;
+}
+.sm{
+	padding: 15% 0 0 25%;
+	margin-bottom: -15%
+}
